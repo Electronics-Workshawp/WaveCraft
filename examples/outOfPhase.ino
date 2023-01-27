@@ -17,7 +17,7 @@ void loop() {
 
   wave2.setFrequency(1.5);
   wave2.setLow(0);
-  wave1.setPhase(60);
+  wave2.setPhase(60);
   wave2.setHigh(255);
   
   Serial.print(wave1.getValue());
