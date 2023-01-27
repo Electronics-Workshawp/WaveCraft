@@ -20,7 +20,6 @@ void loop() {
   wave1.setPhase(60);
   wave2.setHigh(255);
   
-  
   Serial.print(wave1.getValue());
   Serial.print(" ");
   Serial.print(wave2.getValue());
