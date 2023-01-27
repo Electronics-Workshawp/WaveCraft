@@ -17,6 +17,6 @@ void loop() {
   
   int pulse = ledPulse.getIntValue();
   
-  analogWrite(pulse);
+  analogWrite(13, pulse);
   
 }
