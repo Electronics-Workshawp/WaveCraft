@@ -17,6 +17,7 @@ public:
   float getLow();
   float getHigh();
   float getValue();
+  int getIntValue();
 
 private:
   float _frequency;
