@@ -19,6 +19,7 @@ A simple sine wave generator library for Arduino.
 - `float getHigh()` : returns the maximum output value
 - `float mapFloat(float x, float in_min, float in_max, float out_min, float out_max)` : maps a value from one range to another
 - `float getValue()` : returns the current value of the sine wave
+- `float getIntValue()` : returns the current value of the sine wave as an int
 
 ## Usage
 1. Download the WaveCraft library and add it to your Arduino libraries directory
