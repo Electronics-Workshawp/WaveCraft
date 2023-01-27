@@ -53,7 +53,9 @@ void loop() {
   Serial.print(wave4.getValue());
   Serial.print(" ");
   Serial.print(wave5.getValue());
-  Serial.print(" ");       
+  Serial.print(" ");   
+  Serial.print(wave6.getValue());
+  Serial.print(" ");        
   Serial.print(255);
   Serial.print(" ");
   Serial.print(0);
