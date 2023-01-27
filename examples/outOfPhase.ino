@@ -10,15 +10,16 @@ void setup() {
 
 void loop() {
  
-  wave1.setFrequency(.2);
+  wave1.setFrequency(1.5);
   wave1.setLow(0);
   wave1.setPhase(0);
   wave1.setHigh(255);
 
-  wave2.setFrequency(.2);
+  wave2.setFrequency(1.5);
   wave2.setLow(0);
   wave1.setPhase(60);
   wave2.setHigh(255);
+  
   
   Serial.print(wave1.getValue());
   Serial.print(" ");
