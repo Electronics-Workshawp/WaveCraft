@@ -45,3 +45,10 @@ float WaveCraft::getValue() {
   return mapFloat(value, -_amplitude, _amplitude, _low, _high);
 }
 
+int WaveCraft::getIntValue() {
+  unsigned long currentTime = millis();
+  float time = (currentTime - _startTime) / 1000.0;
+  float value = _amplitude * sin(2 * PI * _frequency * time + _phase);
+  return (int)mapFloat(value, -_amplitude, _amplitude, _low, _high);
+}
+
