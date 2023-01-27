@@ -8,11 +8,11 @@ void setup() {
 
 void loop() {
  
-  ledPulse.setFrequency(1);
+  ledPulse.setFrequency(2);
   ledPulse.setLow(0);
   ledPulse.setHigh(255);
 
-  //this will generate a pulse between 0 and 255 with a frequency of 1hz
+  //this will modify map the sine wave to 0 and 255 and change the frequency to 2hz
   //the use of setLow and setHigh overides the amplitude and lets you set your own specific values.
   
   int pulse = (int)ledPulse.getValue();
