@@ -6,7 +6,6 @@ WaveCraft wave3(1, 100);
 
 void setup() {
   Serial.begin(115200);
-  pinMode(13,OUTPUT);
 }
 
 void loop() {
