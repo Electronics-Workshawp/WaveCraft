@@ -12,7 +12,7 @@ void loop() {
   ledPulse.setLow(0);
   ledPulse.setHigh(255);
 
-  //this will modify map the sine wave to 0 and 255 and change the frequency to 2hz
+  //this will map the sine wave to 0 and 255 and change the frequency to 2hz
   //the use of setLow and setHigh overides the amplitude and lets you set your own specific values.
   
   int pulse = (int)ledPulse.getValue();
